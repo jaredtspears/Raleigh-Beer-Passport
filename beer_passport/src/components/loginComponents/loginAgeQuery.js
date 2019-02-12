@@ -4,7 +4,7 @@
 import React, { Component } from 'react';
 // import Container from '../container';
 // import AccessGranted from './AccessGranted'; //created this component but at this time it is not developed
-// import {Row, Input} from 'react-materialize';
+import { Form, Button, FormGroup, Label, Input } from 'reactstrap';
 
 class loginAgeVerification extends Component {
   state = { 
@@ -25,12 +25,21 @@ class loginAgeVerification extends Component {
     return ( 
       <div>
         
-        <h1>Are you of drinking age?</h1>
         {/* should implement container in another component later */}
         <div className= 'container'> 
-          <form>
-            <input className='usersAge' label = 'Validate Age' placeholder='Input your age here'></input>
-          </form>
+        <h1>Are you of drinking age?</h1>
+          <Form>
+            <FormGroup>
+              <Label for='ageChecking'>Enter Your Date of Birth:</Label>
+              <Input className='usersAge' label = 'Validate Age' placeholder='Input your age here'></Input>
+              <Button 
+                onClick = {() => {}}
+                className='submit'>
+                  Enter
+              </Button>
+              <Button className='leave'>Leave</Button>
+            </FormGroup>
+          </Form>
         </div>
       </div>
      );

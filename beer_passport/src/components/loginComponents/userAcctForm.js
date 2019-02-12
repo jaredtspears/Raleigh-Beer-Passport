@@ -1,5 +1,5 @@
 import React from 'react';
-import {Row, Input} from 'react-materialize';
+import {Row, Input} from 'reactstrap';
 
 const UserAcctForm = () => {
   return ( 

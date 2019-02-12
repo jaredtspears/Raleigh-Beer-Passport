@@ -1,13 +1,13 @@
 import React from 'react'
-// import {Container} from 'react-materialize';
+import {Container} from 'reactstrap';
 
 
-const Container = () => {
+const MainContainer = () => {
   return ( 
-    <div className= 'container'>
-
-    </div>
+    <Container>
+      {/* content  pages  */}
+    </Container>
    );
 }
  
-export default Container;
+export default MainContainer;
