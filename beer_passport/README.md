@@ -6,3 +6,10 @@ Beer Passport is a digital way to enjoy local breweries and become a proud "stam
 ## create with npx create-react-app
 
 - using yarn start to initialize app (still in development)
+
+## Using these useful packages:
+- reactStrap
+- react-router-dom
+- Pose js (implimenting soon)
+- Mongo DB (implimenting soon)
+- express (implimenting soon)
