@@ -28,6 +28,12 @@ export default class NavBAR extends React.Component {
                 <NavLink href="/breweries">Breweries</NavLink>
               </NavItem>
               <NavItem>
+                <NavLink href="/profile">Profile</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/about">About</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="https://github.com/jaredtspears/Raleigh-Beer-Passport">GitHub</NavLink>
               </NavItem>
             </Nav>

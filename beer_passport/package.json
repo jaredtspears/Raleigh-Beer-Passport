@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "agegate": "^3.0.0",
     "bootstrap": "^4.3.0",
     "flipping-pages": "^2.1.2",
     "react": "^16.8.1",
+    "react-datetime": "^2.16.3",
     "react-dom": "^16.8.1",
     "react-pose": "^4.0.6",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.3",
+    "react-scripts": "^2.1.5",
     "reactstrap": "^7.1.0"
   },
   "scripts": {

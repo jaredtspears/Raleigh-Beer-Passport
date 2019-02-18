@@ -1,1 +1,0 @@
-// this will be an auto generated name component from API from local breweries most likely
