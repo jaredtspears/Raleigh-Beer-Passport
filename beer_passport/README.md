@@ -13,3 +13,6 @@ Beer Passport is a digital way to enjoy local breweries and become a proud "stam
 - Pose js (implimenting soon)
 - Mongo DB (implimenting soon)
 - express (implimenting soon)
+
+## API's USED:
+- breweryDB API (Sandbox key for developers interested - go get it on their site when you sign up!)
