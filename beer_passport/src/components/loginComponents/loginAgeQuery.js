@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 // import Container from '../container';
 // import AccessGranted from './AccessGranted'; //created this component but at this time it is not developed
 import { Form, Button, FormGroup, Label, Input } from 'reactstrap';
-// import CurDate from './date';
+import CurDate from './date';
 
 class loginAgeVerification extends Component {
   
@@ -59,7 +59,7 @@ class loginAgeVerification extends Component {
             {this.state.date} 
           </p> */}
         
-          {/* <CurDate/>  */}
+          <CurDate/> 
           <Form>
             <FormGroup>
               <Label for='ageChecking'>Enter Your Date of Birth:</Label>
